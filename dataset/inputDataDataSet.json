@@ -1,0 +1,23 @@
+{
+	"name": "inputDataDataSet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linkedservice_pavanstorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": {
+					"value": "test.csv",
+					"type": "Expression"
+				},
+				"folderPath": "input",
+				"container": "adfdemo"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

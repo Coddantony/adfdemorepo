@@ -1,0 +1,9 @@
+{
+	"name": "pavancompanyadf",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8b0bf9ce-50be-477f-bae7-d76c2dfb4041",
+		"tenantId": "0d78ce02-05d7-4043-a3ea-943acfb61a7a"
+	}
+}
